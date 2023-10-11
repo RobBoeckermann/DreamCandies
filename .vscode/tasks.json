@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "build",
+                "SRC=${relativeFile}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "run",
+                "SRC=${relativeFile}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}

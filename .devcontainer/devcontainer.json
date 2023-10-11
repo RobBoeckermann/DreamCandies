@@ -1,0 +1,25 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "u2204",
+	"build":{
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"grimmer.vscode-back-forward-button",
+				"alefragnani.Bookmarks",
+				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-extension-pack",
+				"ms-vscode.cpptools-themes",
+				"eamodio.gitlens",
+				"NateAGeek.memory-viewer",
+				"smulyono.reveal",
+				"wayou.vscode-todo-highlight",
+				"Gruntfuggly.todo-tree",
+				"vscode-icons-team.vscode-icons"
+			]
+		}
+	}
+}
