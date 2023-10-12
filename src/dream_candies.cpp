@@ -27,12 +27,6 @@ bool set_customer_codes(const std::filesystem::path &customer_sample_path, std::
     std::sort(customer_codes.begin(), customer_codes.end());
     customer_codes.erase(std::unique(customer_codes.begin(), customer_codes.end()), customer_codes.end());
 
-
-    // TODO: cleanup debugging
-    // for (std::string x : customer_codes) {
-    //     std::cout << x << std::endl;
-    // }
-
     return true;
 }
 
