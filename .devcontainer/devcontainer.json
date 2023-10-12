@@ -18,7 +18,8 @@
 				"smulyono.reveal",
 				"wayou.vscode-todo-highlight",
 				"Gruntfuggly.todo-tree",
-				"vscode-icons-team.vscode-icons"
+				"vscode-icons-team.vscode-icons",
+				"xaver.clang-format"
 			]
 		}
 	}

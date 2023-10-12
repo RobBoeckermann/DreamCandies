@@ -7,4 +7,5 @@ RUN apt update && \
     g++ \
     cmake \
     libgtest-dev \
+    clang-format \
     && apt clean
